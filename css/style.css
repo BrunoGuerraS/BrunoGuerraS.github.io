@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    display: flex;
+}
+
+.box__primary{
+    width: 70%;
+    height: 100vh;
+    background: url(../images/loguito-main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-right: dashed 5px black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box__primary img{
+    width: 270px;
+    border-radius: 70px;
+    box-shadow: 5px 8px 11px 2px rgba(0,0,0,0.75);
+
+}
+/* ----------------------------------------------- */
+.box__form{
+    width: 30%;
+    text-align: center;
+    
+    
+}
+
+
+.box__form img{
+    width: 160px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    
+}
+
+.box__form h2{
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+
+.formulario {
+    width: 60%;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.formulario label{
+    text-align: left;
+}
+
+.formulario span{
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+
+}
+
+.formulario input{
+    width: 100%;
+    padding: 10px 3px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+.formulario .form__btn{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 40px;
+    background: rgb(222 236 11);
+    font-size: 2rem;
+    font-weight: 700;
+}
+.formulario .form__btn:hover{
+
+}
